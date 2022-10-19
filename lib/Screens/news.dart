@@ -1,13 +1,13 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:news/desc.dart';
-import 'package:news/model.dart';
-import 'package:news/offline.dart';
-import 'package:news/presenter.dart';
-import 'package:responsive_sizer/responsive_sizer.dart';
+import 'package:news/Database/offline.dart';
+import 'package:news/Models/model.dart';
+import 'package:news/Models/offlinemodel.dart';
+import 'package:news/Presenter/presenter.dart';
+import 'package:news/Screens/desc.dart';
 
-import 'offlinemodel.dart';
+import 'package:responsive_sizer/responsive_sizer.dart';
 
 // ignore: must_be_immutable
 class HomeScreen extends StatefulWidget with ChangeNotifier {
